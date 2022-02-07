@@ -5,10 +5,6 @@ labels:
   - feature
 assignees: '0x219'
 body:
-  - type: markdown
-    attributes:
-      value: |
-        🥳 **Thank you for contributing!**
   - type: textarea
     attributes:
       label: What is the new or updated feature that you are suggesting?
@@ -21,3 +17,7 @@ body:
       placeholder: 💭 Please enter...
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        ### 🥳 Thank you for contributing!
