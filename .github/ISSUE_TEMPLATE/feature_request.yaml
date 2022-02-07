@@ -1,0 +1,23 @@
+name: 💡 Feature Request
+description: Suggest an idea for this project.
+title: "[Feature]: <title>"
+labels:
+  - feature
+assignees: '0x219'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🥳 **Thank you for contributing!**
+  - type: textarea
+    attributes:
+      label: What is the new or updated feature that you are suggesting?
+      placeholder: 💭 Please enter...
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Why should this feature be included?
+      placeholder: 💭 Please enter...
+    validations:
+      required: true
