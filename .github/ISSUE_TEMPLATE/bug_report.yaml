@@ -1,5 +1,5 @@
 name: 🐛 Bug report
-about: Create a report to help us improve
+description: Create a report to help us improve
 title: '[Bug]: <title>'
 labels:
   - bug
@@ -9,3 +9,10 @@ body:
     attributes:
       value: |
         🥳 **Thank you for contributing!**
+ - type: textarea
+      attributes:
+        label: Describe the bug
+        description: A clear and concise description of what the bug is.
+        placeholder: 💭 Please enter...
+      validations:
+        required: true
