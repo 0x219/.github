@@ -1,18 +1,64 @@
-name: "🐛 Bug report"
+name: 🐛 Bug report
 description: Create a report to help us improve
 title: '[Bug]: <title>'
 labels:
   - bug
 assignees: '0x219'
 body:
+  - type: textarea
+      attributes:
+        label: Describe the bug
+        description: A clear and concise description of what the bug is.
+        placeholder: 💭 Please enter...
+      validations:
+        required: true
+  - type: textarea
+      attributes:
+        label: To Reproduce
+        description: Steps to reproduce the problem.
+        placeholder: 💭 Please enter...
+        value: |
+          Steps to reproduce the behavior:
+            1. Go to '...'
+            2. Click on '....'
+            3. Scroll down to '....'
+            4. See error
+      validations:
+        required: true
+  - type: textarea
+      attributes:
+        label: Expected behavior
+        description: A clear and concise description of what you expected to happen.
+        placeholder: 💭 Please enter...
+      validations:
+        required: true
+  - type: textarea
+      attributes:
+        label: Screenshots
+        description: If applicable, add screenshots to help explain your problem.
+        placeholder: 💭 Please enter...
+      validations:
+        required: false
+  - type: textarea
+      attributes:
+        label: Environmental information
+        description: Information about the environment you are currently using.
+        placeholder: 💭 Please complete the following information...
+        value: |
+          Device: [e.g. iPhone6]
+          OS: [e.g. iOS8.1]
+          Browser [e.g. stock browser, safari]
+          Version [e.g. 22]
+      validations:
+        required: false
+  - type: textarea
+      attributes:
+        label: Additional context
+        description: Add any other context about the problem here.
+        placeholder: 💭 Please enter...
+      validations:
+        required: false
   - type: markdown
     attributes:
       value: |
-        🥳 **Thank you for contributing!**
-  - type: textarea
-    attributes:
-      label: Describe the bug
-      description: A clear and concise description of what the bug is.
-      placeholder: 💭 Please enter...
-    validations:
-      required: true
+        ### 🥳 Thank you for contributing!
